@@ -2,6 +2,10 @@
   box-sizing: border-box;
   margin: 0;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   color: #283747;
   font-size: 18px;
@@ -44,23 +48,22 @@ body {
 header,
 footer {
   background: rgb(140, 105, 221);
+  /* background: #332351; */
   text-align: center;
   text-transform: uppercase;
   padding: 25px;
 }
 
 #title {
-  color: rgb(221, 204, 204);
-  color: rgb(72, 34, 73);
   font-weight: 900;
   font-size: 68px;
   margin: 25px auto;
   font-family: Nunito !important;
-  color: #283747;
   color: #214a75;
+  color: #76b0ee;
 }
 #menu {
-  background-color: rgba(221, 204, 204, 0.25);
+  /* background-color: rgba(221, 204, 204, 0.25); */
 }
 
 #menu li {
@@ -72,15 +75,15 @@ footer {
 }
 
 li a {
-  color: white;
+  color: #3a3939;
   text-decoration: none;
+  font-weight: 900;
   padding: 3px;
-  /* font-family: Poppins; */
-
   color: #283747 !important;
 }
 .active {
   border-bottom: 3px solid orange;
+  border-bottom: 3px solid #76b0ee;
 }
 
 section {
@@ -98,6 +101,7 @@ section {
 }
 article {
   margin-bottom: 50px;
+  color: #333333;
 }
 #section-1 {
   background-color: rgb(177, 231, 177);
@@ -306,12 +310,21 @@ th {
   #title {
     font-size: 28px;
   }
+  #menu {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    /* background-color: rgba(221, 204, 204, 0.25); */
+  }
   #menu li {
+    width: 150px;
+    display: block;
     margin: 5px;
   }
 
   li a {
     padding: 2px;
+    font-size: 0.75rem;
   }
   section {
     margin: 10px;
@@ -329,5 +342,9 @@ th {
   .form-group {
     /* top, right, bottom, left */
     margin: 0 0 3px 0px;
+  }
+  table {
+    overflow: scroll;
+    overflow-x: auto;
   }
 }
