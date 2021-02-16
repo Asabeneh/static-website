@@ -9,10 +9,12 @@ body {
 body {
   color: #283747;
   font-size: 18px;
+
+  /* Good */
   /* font-family: 'Roboto Slab'; */
 
   /* Very good */
-  font-family: 'Karla';
+  /* font-family: 'Karla'; */
   /* Special font and excellent */
   /* font-family: 'Inconsolata'; */
   /* special font and excellent */
@@ -30,16 +32,19 @@ body {
   /* font-family: 'Work Sans'; */
   /* Very good */
   /* font-family: 'Lato'; */
+
   /* Very good */
   /* font-family: 'Lora'; */
+  /* font-family: 'Work Sans'; */
   /* Very good */
   /* font-family: Roboto; */
   /* Very good */
   /* font-family: 'Montserrat'; */
-  /* Good */
+  /* Very goo Good */
   /* font-family: 'Proza Libre'; */
 
   line-height: 180%;
+  font-family: Inconsolata;
 }
 .wrapper {
   background-color: #efeef3;
@@ -47,8 +52,8 @@ body {
 }
 header,
 footer {
-  background: rgb(140, 105, 221);
-  /* background: #332351; */
+  color: white;
+  background: #7645ba;
   text-align: center;
   text-transform: uppercase;
   padding: 25px;
@@ -56,11 +61,10 @@ footer {
 
 #title {
   font-weight: 900;
-  font-size: 68px;
+  font-size: 52px;
   margin: 25px auto;
-  font-family: Nunito !important;
-  color: #214a75;
-  color: #76b0ee;
+  font-family: Karla;
+  color: #a1ee11;
 }
 #menu {
   /* background-color: rgba(221, 204, 204, 0.25); */
@@ -74,12 +78,13 @@ footer {
   color: #283747 !important;
 }
 
-li a {
+#menu li a {
   color: #3a3939;
   text-decoration: none;
   font-weight: 900;
   padding: 3px;
   color: #283747 !important;
+  color: white !important;
 }
 .active {
   border-bottom: 3px solid orange;
@@ -92,32 +97,64 @@ section {
   border-radius: 5px;
 }
 .section-title {
-  font-weight: 900;
+  font-weight:700;
   margin: 15px 0;
   text-transform: uppercase;
-  font-weight: 900;
-  font-family: Poppins;
+  font-family: Karla;
   letter-spacing: 2px;
+  /* color: #a1ee11; */
+  color: #7645ba;
 }
 article {
   margin-bottom: 50px;
   color: #333333;
 }
+#introduction {
+  background: rgb(163, 163, 243);
+  color: white;
+}
 #section-1 {
-  background-color: rgb(177, 231, 177);
+  background-color: rgb(48, 48, 75);
+  color: white;
 }
 
 #section-2 {
-  background-color: rgb(108, 238, 238);
+  background-color: rgb(46, 46, 50);
+  color: rgb(249, 250, 251);
 }
 #section-3 {
-  background-color: rgb(122, 95, 245);
+  color: rgb(230, 230, 231);
+  background-color: rgb(88, 74, 68);
 }
 #section-4 {
-  background-color: rgb(243, 195, 91);
+  background-color: rgb(251, 242, 233);
+  background-color: rgb(45, 45, 43);
+}
+#section-4 li a,
+#section-4 li {
+  color: rgb(249, 249, 249) !important;
+  text-decoration: none;
+}
+.section-5 {
+  background-color: #353b6e;
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* CSS for Projects */
+.section-5 button {
+  border: 2px solid #7433df;
+  background-color: #7433df;
+  color: white;
+  padding: 12px 16px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+/* CSS for Projects page */
 
 .box {
   width: 300px;
@@ -151,7 +188,7 @@ article {
 hr {
   height: 3px;
   padding-top: 5px;
-  background-color: rgb(165, 111, 182);
+  background-color: rgba(165, 111, 182, 0.75);
 }
 
 /* icons style */
@@ -202,6 +239,7 @@ input[type='text'],
 input[type='email'],
 input[type='number'],
 input[type='datetime-local'],
+select,
 textarea {
   display: block;
   margin-bottom: 3px;
@@ -210,7 +248,6 @@ textarea {
   border: 2px solid rgb(226, 206, 238);
   outline: none;
   border-radius: 3px;
-  /* dd */
   padding: 10px;
   width: 35%;
   border-radius: 5px;
