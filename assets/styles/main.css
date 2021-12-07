@@ -97,7 +97,7 @@ section {
   border-radius: 5px;
 }
 .section-title {
-  font-weight:700;
+  font-weight: 700;
   margin: 15px 0;
   text-transform: uppercase;
   font-family: Karla;
@@ -142,7 +142,10 @@ article {
   font-weight: bold;
 }
 
-.section-5 button {
+.section-5 button,
+.btn-link {
+  display: inline-block;
+  margin: 25px auto;
   border: 2px solid #7433df;
   background-color: #7433df;
   color: white;
@@ -151,8 +154,10 @@ article {
   border-radius: 5px;
   outline: none;
   cursor: pointer;
-  margin-top: 15px;
   text-transform: uppercase;
+}
+.btn-link {
+  text-decoration: none;
 }
 /* CSS for Projects page */
 
