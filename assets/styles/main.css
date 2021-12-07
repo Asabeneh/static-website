@@ -143,8 +143,7 @@ article {
 }
 
 .section-5 button,
-.btn-link {
-  display: inline-block;
+a.btn-link {
   margin: 25px auto;
   border: 2px solid #7433df;
   background-color: #7433df;
@@ -156,7 +155,9 @@ article {
   cursor: pointer;
   text-transform: uppercase;
 }
-.btn-link {
+a.btn-link {
+  display: block;
+  width:45%;
   text-decoration: none;
 }
 /* CSS for Projects page */
